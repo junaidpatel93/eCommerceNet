@@ -1,0 +1,149 @@
+<!-- Header-->
+<header id="header">
+    <div class="header-top-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-4  col-lg-offset-2  ">
+                    <div class="block-form">
+                        <h3>Account login</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="email" id="email-signin" class="form-control" name='email' placeholder="Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="password" id="password-signin" class="form-control" name='password' placeholder="Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="button" value="Login" class="btn-default-1" onclick="login()">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" id="header-login-close"><i class="icon-remove"></i> </a>
+    </div>
+    <div class="header-top-signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="block-form">
+                        <h3>Create new account</h3>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="email" id="email-reg" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="password" id="password-reg" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="button" value="Signup" class="btn-default-1" onclick="register()">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" id="header-signup-close"><i class="icon-remove"></i> </a>
+    </div>
+
+    <div class="header-top-change-pass">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="block-form">
+                        <h3>Change Password</h3>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="password" id="current-pass" class="form-control" placeholder="Current Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="password" id="new-pass" class="form-control" placeholder="New Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="button" value="Change Password" class="btn-default-1" onclick="changePassword()">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" id="header-change-pass-close"><i class="icon-remove"></i> </a>
+    </div>
+
+    <div class="header-bg">
+        <div class="header-main" id="header-main-fixed">
+            <div class="container">
+                <div id="container-fixed">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="/index.html" class="header-logo pull-left"></a>
+                        </div>
+                        <div class="tab pull-right">
+                            <ul class="nav nav-pills">
+                                <li>
+                                    <a href="/about.html" data-toggle="tab">About</a>
+                                </li>
+                                <li>
+                                    <a href="/contact.html" data-toggle="tab">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="/FAQS.html" data-toggle="tab">FAQS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="first-welcome">
+                            <ul class="account-menu-list list-unstyled">
+                                <li><a href="/" class="navbar-brand"><i class="icon-home"></i></a></li>
+                                <li id="profileDis" class="disabledTab"><a href="/profile.html">Account</a></li>
+                                <li><a href="/cart.html">Cart</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div id="first-welcome">
+                            <p> Welcome <span id="user-details">Guest</span> </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pull-right">
+                        <div id="first-welcome">
+                            <ul class="account-menu-list list-unstyled">
+                                <!--<li><a class="header-mini-cart" href="/cart.html"></a></li>-->
+                                <li><a href="#" id="header-login">Login</a></li>
+                                <li><a href="#" id="header-signup">Sign Up</a></li>
+                                <li><a class="hide" onclick="logout()" href="#" id="header-logout">Logout</a></li>
+                                <li><a class="hide" href="#" id="header-change-password">Change Password</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!--<div class="col-md-3">
+                        <div class="header-mini-cart pull-right">
+                            <a class="header-mini-cart pull-right" href="/cart.html"></a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <!-- /header-top-row -->
+    </div>
+</header>
+<script src="js/main.js"></script>
+<!-- Load Index JS -->

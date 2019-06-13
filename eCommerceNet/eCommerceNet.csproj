@@ -1,0 +1,134 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="vendor\**" />
+    <Compile Remove="wwwroot\Data\**" />
+    <Content Remove="vendor\**" />
+    <Content Remove="wwwroot\Data\**" />
+    <EmbeddedResource Remove="vendor\**" />
+    <EmbeddedResource Remove="wwwroot\Data\**" />
+    <None Remove="vendor\**" />
+    <None Remove="wwwroot\Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\banner-01.jpg" />
+    <None Include="wwwroot\images\banner-02.jpg" />
+    <None Include="wwwroot\images\banner-03.jpg" />
+    <None Include="wwwroot\images\banner-04.jpg" />
+    <None Include="wwwroot\images\banner-05.jpg" />
+    <None Include="wwwroot\images\banner-06.jpg" />
+    <None Include="wwwroot\images\banner-07.jpg" />
+    <None Include="wwwroot\images\banner-08.jpg" />
+    <None Include="wwwroot\images\banner-09.jpg" />
+    <None Include="wwwroot\images\banner-10.jpg" />
+    <None Include="wwwroot\images\banner-11.jpg" />
+    <None Include="wwwroot\images\banner-12.jpg" />
+    <None Include="wwwroot\images\banner-13.jpg" />
+    <None Include="wwwroot\images\banner-14.jpg" />
+    <None Include="wwwroot\images\bg-banner-01.jpg" />
+    <None Include="wwwroot\images\bg-banner-02.jpg" />
+    <None Include="wwwroot\images\bg-video-01.jpg" />
+    <None Include="wwwroot\images\blog-01.jpg" />
+    <None Include="wwwroot\images\blog-02.jpg" />
+    <None Include="wwwroot\images\blog-03.jpg" />
+    <None Include="wwwroot\images\blog-04.jpg" />
+    <None Include="wwwroot\images\blog-05.jpg" />
+    <None Include="wwwroot\images\blog-06.jpg" />
+    <None Include="wwwroot\images\blog-07.jpg" />
+    <None Include="wwwroot\images\blog-08.jpg" />
+    <None Include="wwwroot\images\blog-09.jpg" />
+    <None Include="wwwroot\images\blog-10.jpg" />
+    <None Include="wwwroot\images\gallery-01.jpg" />
+    <None Include="wwwroot\images\gallery-02.jpg" />
+    <None Include="wwwroot\images\gallery-03.jpg" />
+    <None Include="wwwroot\images\gallery-04.jpg" />
+    <None Include="wwwroot\images\gallery-05.jpg" />
+    <None Include="wwwroot\images\gallery-06.jpg" />
+    <None Include="wwwroot\images\gallery-07.jpg" />
+    <None Include="wwwroot\images\gallery-08.jpg" />
+    <None Include="wwwroot\images\gallery-09.jpg" />
+    <None Include="wwwroot\images\gallery-10.jpg" />
+    <None Include="wwwroot\images\gallery-11.jpg" />
+    <None Include="wwwroot\images\gallery-12.jpg" />
+    <None Include="wwwroot\images\gallery-13.jpg" />
+    <None Include="wwwroot\images\gallery-14.jpg" />
+    <None Include="wwwroot\images\gallery-15.jpg" />
+    <None Include="wwwroot\images\heading-pages-01.jpg" />
+    <None Include="wwwroot\images\heading-pages-02.jpg" />
+    <None Include="wwwroot\images\heading-pages-03.jpg" />
+    <None Include="wwwroot\images\heading-pages-04.jpg" />
+    <None Include="wwwroot\images\heading-pages-05.jpg" />
+    <None Include="wwwroot\images\heading-pages-06.jpg" />
+    <None Include="wwwroot\images\icons\bg-01.jpg" />
+    <None Include="wwwroot\images\icons\discover.png" />
+    <None Include="wwwroot\images\icons\express.png" />
+    <None Include="wwwroot\images\icons\favicon.png" />
+    <None Include="wwwroot\images\icons\icon-header-01.png" />
+    <None Include="wwwroot\images\icons\icon-header-02.png" />
+    <None Include="wwwroot\images\icons\icon-position-map.png" />
+    <None Include="wwwroot\images\icons\logo.png" />
+    <None Include="wwwroot\images\icons\mastercard.png" />
+    <None Include="wwwroot\images\icons\paypal.png" />
+    <None Include="wwwroot\images\icons\video-16-9.jpg" />
+    <None Include="wwwroot\images\icons\visa.png" />
+    <None Include="wwwroot\images\item-01.jpg" />
+    <None Include="wwwroot\images\item-02.jpg" />
+    <None Include="wwwroot\images\item-03.jpg" />
+    <None Include="wwwroot\images\item-04.jpg" />
+    <None Include="wwwroot\images\item-05.jpg" />
+    <None Include="wwwroot\images\item-06.jpg" />
+    <None Include="wwwroot\images\item-07.jpg" />
+    <None Include="wwwroot\images\item-08.jpg" />
+    <None Include="wwwroot\images\item-09.jpg" />
+    <None Include="wwwroot\images\item-10.jpg" />
+    <None Include="wwwroot\images\item-11.jpg" />
+    <None Include="wwwroot\images\item-12.jpg" />
+    <None Include="wwwroot\images\item-13.jpg" />
+    <None Include="wwwroot\images\item-14.jpg" />
+    <None Include="wwwroot\images\item-15.jpg" />
+    <None Include="wwwroot\images\item-16.jpg" />
+    <None Include="wwwroot\images\item-17.jpg" />
+    <None Include="wwwroot\images\item-cart-01.jpg" />
+    <None Include="wwwroot\images\item-cart-02.jpg" />
+    <None Include="wwwroot\images\item-cart-03.jpg" />
+    <None Include="wwwroot\images\item-cart-04.jpg" />
+    <None Include="wwwroot\images\item-cart-05.jpg" />
+    <None Include="wwwroot\images\item-cart-06.jpg" />
+    <None Include="wwwroot\images\master-slide-01.jpg" />
+    <None Include="wwwroot\images\master-slide-02.jpg" />
+    <None Include="wwwroot\images\master-slide-03.jpg" />
+    <None Include="wwwroot\images\master-slide-04.jpg" />
+    <None Include="wwwroot\images\master-slide-05.jpg" />
+    <None Include="wwwroot\images\master-slide-06.jpg" />
+    <None Include="wwwroot\images\master-slide-07.jpg" />
+    <None Include="wwwroot\images\master-slide-08.jpg" />
+    <None Include="wwwroot\images\product-detail-01.jpg" />
+    <None Include="wwwroot\images\product-detail-02.jpg" />
+    <None Include="wwwroot\images\product-detail-03.jpg" />
+    <None Include="wwwroot\images\shop-item-09.jpg" />
+    <None Include="wwwroot\images\thumb-item-01.jpg" />
+    <None Include="wwwroot\images\thumb-item-02.jpg" />
+    <None Include="wwwroot\images\thumb-item-03.jpg" />
+    <None Include="wwwroot\images\Untitled-5.jpg" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\jquery-1.11.3.min.js" />
+    <None Include="wwwroot\js\jquery.mobile-1.4.5.min.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\main.min.js" />
+    <None Include="wwwroot\js\map-custom.js" />
+    <None Include="wwwroot\js\map-custom.min.js" />
+    <None Include="wwwroot\js\slick-custom.js" />
+    <None Include="wwwroot\js\slick-custom.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

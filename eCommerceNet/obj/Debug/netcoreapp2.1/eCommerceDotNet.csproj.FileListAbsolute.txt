@@ -1,0 +1,28 @@
+E:\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.deps.json
+E:\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.runtimeconfig.json
+E:\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.runtimeconfig.dev.json
+E:\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.dll
+E:\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.pdb
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.csprojAssemblyReference.cache
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.csproj.CoreCompileInputs.cache
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorAssemblyInfo.cache
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorAssemblyInfo.cs
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.AssemblyInfoInputs.cache
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.AssemblyInfo.cs
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorTargetAssemblyInfo.cache
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.dll
+E:\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.pdb
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.deps.json
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.runtimeconfig.json
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.runtimeconfig.dev.json
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.dll
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\bin\Debug\netcoreapp2.1\eCommerceDotNet.pdb
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.csprojAssemblyReference.cache
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorAssemblyInfo.cache
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorAssemblyInfo.cs
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.AssemblyInfoInputs.cache
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.AssemblyInfo.cs
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.RazorTargetAssemblyInfo.cache
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.dll
+C:\Users\Junaid Patel\Desktop\Junaid - Documents\Conestoga Sem 2\Web Technologies\tempDotNet\eCommerceDotNet\eCommerceDotNet\obj\Debug\netcoreapp2.1\eCommerceDotNet.pdb

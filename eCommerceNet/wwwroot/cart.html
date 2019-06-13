@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Cart</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/theme-style.css">
+    <link rel="stylesheet" href="css/ie.style.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/less.js"></script>
+</head>
+<body onload=" getUser(); fetchCartItems(); getUserDetails();">
+    <!-- Header-->
+    <div class="bg-univ-style" id="header_load"></div>
+    <!-- End header -->
+    <!--Content cart-->
+    <section>
+        <div class="block color-scheme-3">
+            <div class="container">
+                <div class="header-1">
+                    <h1>Checkout</h1>
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="cart-table table">
+                            <tbody id='table_body'></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="row">
+                            <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div id="address-show" class="block-form block-order-total box-border">
+                                    <div class="">
+                                        <span>Address</span>
+                                        <input type="text" id="address-cart" class="form-control" name='address-cart' placeholder="Address">
+                                    </div>
+
+                                </div>
+                                <div class="block-form block-order-total box-border">
+                                    <span class="al-text">Grand Total:</span>
+                                    <span id="total_cost"></span>
+                                    <hr>
+                                    <button id="checkoutButton" onclick="updateCartAddress()" class="btn-default-1 disabled">Proceed Checkout</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section footer -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/jquery.flexisel.js"></script>
+    <script src="js/vendor/jquery.transit.js"></script>
+    <script src="js/vendor/jquery.jcountdown.js"></script>
+    <script src="js/vendor/jquery.jPages.js"></script>
+    <script src="js/vendor/tab.js"></script>
+    <script src="js/vendor/responsiveslides.min.js"></script>
+    <script src="js/vendor/jquery.elevateZoom-3.0.8.min.js"></script>
+    <!-- jQuery REVOLUTION Slider  -->
+    <script type="text/javascript" src="js/vendor/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- Custome Slider  -->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/profile.js"></script>
+    <!-- Load Header JS -->
+    <script src="js/header.js"></script>
+</body>
+</html>
